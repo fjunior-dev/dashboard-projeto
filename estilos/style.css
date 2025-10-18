@@ -52,15 +52,19 @@ body {
     padding: 8px 0;
 }
 
-.main-header ul li a:hover {
-    color: #ff7a3a;
+.main-header ul li:hover {
+    background-color: var(--primary-color);
+    color: #fff;                 /* cor do texto e ícone */
+    border-radius: 20px;            /* bordas arredondadas */
+    padding: 10px 26px;
+    transition: 0.5s;
 }
 
 .main-header ul li:first-child {
     background-color: #fff;
     color: #333;                 /* cor do texto e ícone */
     border-radius: 20px;            /* bordas arredondadas */
-    padding: 12px 26px;
+    padding: 10px 26px;
     
 }
 
