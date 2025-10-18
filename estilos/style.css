@@ -1,8 +1,100 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@1..1000&display=swap');
+
+:root {
+    --primary-color: #E65F2B;
+    --secondary-color: #060606;
+    --bg-color: #282828;
+    --font-color: #F1F1F1;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.sofia-sans {
+  font-family: "Sofia Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.main-header {
+    background: var(--secondary-color);
+    display: flex;
+    padding: 80px 40px;
+}
+
+.main-header ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+    margin-left: 12px;
+}
+
+.main-header ul li {
+    list-style: none;
+}
+
+.main-header ul li a {
+    color: var(--font-color);
+    text-decoration: none;
+    font-family: "Sofia Sans";
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 14px;
+
+}
+
+
+.main-header ul li a {
+    gap: 10px;
+}
+
+.main-content {
+    display: flex;
+    background: var(--bg-color);
+    
+}
+
+.main-content .sessao-main {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px;
+    gap: 20px;
+}
+
+.main-content .sessao-main .h1-sm {
+    color: var(--primary-color);
+    font-family: "Sofia Sans";
+    font-weight: 400;
+}
+
+.main-content .sessao-main .p-sm {
+    font-family: "Sofia Sans";
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.main-content .sessao-main .button {
+    text-decoration: none;
+    color: #fff;
+    background: var(--primary-color);
+    padding: 13px 36px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-family: "Sofia Sans";
+    font-weight: 400;
+    letter-spacing: 1px;
+    align-self: flex-start; /* ou center */
+    width: auto;
+}
