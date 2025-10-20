@@ -95,6 +95,7 @@ body {
 .main-content {
     display: flex;
     background: var(--bg-color);
+    flex-direction: column;
     
 }
 
@@ -103,6 +104,40 @@ body {
     flex-direction: column;
     padding: 80px 40px;
     gap: 20px;
+}
+
+.main-content .sessao-main {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px 20px;
+    gap: 20px;
+}
+
+.main-content .sessao-texto {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    gap: 20px;
+}
+
+.main-content .sessao-texto .h1-st {
+    color: var(--primary-color);
+    font-family: "Sofia Sans";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.main-content .sessao-texto .h2-st {
+    color: var(--primary-color);
+    font-family: "Sofia Sans";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.main-content .sessao-texto .p-st {
+    font-family: "Sofia Sans";
+    font-weight: 300;
+    line-height: 25px;
 }
 
 .main-content .sessao-main .h1-sm {
