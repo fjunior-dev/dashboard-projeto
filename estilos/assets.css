@@ -24,6 +24,17 @@
     mask-position: center;
 }
 
+.iconsv {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  vertical-align: middle;
+  transition: color 0.3s ease;
+  color: var(--primary-color);
+}
+
+
+
 /* Icons */
 
 .icon-home {
@@ -58,7 +69,7 @@
 }
 
 .icon-dash {
-  -webkit-mask-image: url(../assets/icons.svg);
-  mask-image: url("../assets/icons.svg");
+  -webkit-mask-image: url(../assets/icons-7.svg);
+  mask-image: url("../assets/icons-7.svg");
 }
 
