@@ -1,0 +1,64 @@
+.icond {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: var(--primary-color); /* cor do ícone */
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: white; /* cor do ícone */
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+/* Icons */
+
+.icon-home {
+  -webkit-mask-image: url("../assets/icons-1.svg");
+  mask-image: url("../assets/icons-1.svg");
+}
+
+
+.icon-tipo {
+  -webkit-mask-image: url("../assets/icons-2.svg");
+  mask-image: url("../assets/icons-2.svg");
+}
+
+.icon-cards {
+  -webkit-mask-image: url("../assets/icons-3.svg");
+  mask-image: url("../assets/icons-3.svg");
+}
+
+.icon-listas {
+  -webkit-mask-image: url("../assets/icons-4.svg");
+  mask-image: url("../assets/icons-4.svg");
+}
+
+.icon-form {
+  -webkit-mask-image: url("../assets/icons-5.svg");
+  mask-image: url("../assets/icons-5.svg");
+}
+
+.icon-botoes {
+  -webkit-mask-image: url("../assets/icons-6.svg");
+  mask-image: url("../assets/icons-6.svg");
+}
+
+.icon-dash {
+  -webkit-mask-image: url(../assets/icons.svg);
+  mask-image: url("../assets/icons.svg");
+}
+
