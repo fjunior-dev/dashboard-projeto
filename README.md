@@ -55,4 +55,4 @@ Pode ser publicado diretamente em serviços de hospedagem estática como **GitHu
 ### 8. Créditos  
 Desenvolvido com fins **educacionais**, para prática de front-end.  
 
-**Assinado:** *f-juniordev*
+****Developed by f-juniordev - For educational purposes only.**
